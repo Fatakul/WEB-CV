@@ -184,14 +184,16 @@ footer {
 }
 
 a.responsive-link:hover,
-a.responsive-link:focus {
+a.responsive-link:focus
+{
   color: #fff;
   background: #0d6efd;
   text-decoration: underline;
   outline: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px)
+{
   a.responsive-link {
     font-size: 1.2em;
     padding: 10px 16px;
